@@ -213,7 +213,7 @@ main() {
     print_separator
     # echo "Check Last 10 Logs:" >> "$REPORT_FILE"
     # print_separator
-    check_system_logs >> "$REPORT_FILE"
+    # check_system_logs >> "$REPORT_FILE"
     print_separator
     check_security_monitoring_tools >> "$REPORT_FILE"
     echo "System report saved to $REPORT_FILE"
