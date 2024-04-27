@@ -1,0 +1,69 @@
+Recreating a tool like Lynis for your company is a significant endeavor! Lynis is a comprehensive security auditing tool for Unix/Linux systems. While it's not possible to provide an exhaustive list of tests without more context about your company's infrastructure, here's a basic list of tests you might consider including to get started:
+
+1. **System Information:**
+   - Hostname
+   - Kernel version
+   - Distribution details
+   - Installed packages
+
+2. **User and Group Settings:**
+   - List of users and their attributes
+   - List of groups and their members
+   - Password policies
+
+3. **Filesystem and Storage:**
+   - Mounted filesystems
+   - Disk usage
+   - Filesystem integrity (checksums)
+
+4. **Network Configuration:**
+   - Network interfaces and configuration
+   - Firewall rules
+   - Listening network services and ports
+
+5. **Software and Package Management:**
+   - Installed software and versions
+   - Package management integrity (package checksums)
+   - Vulnerability checks against known CVEs
+
+6. **System Security Settings:**
+   - File permissions and ownership
+   - Security configurations (e.g., SELinux, AppArmor)
+   - Secure shell (SSH) configuration
+
+7. **Logging and Monitoring:**
+   - Log file locations and permissions
+   - Log rotation settings
+   - Monitoring tools and configurations
+
+8. **System Services:**
+   - Enabled services
+   - Running services and their statuses
+   - Service configurations
+
+9. **Process Management:**
+   - Running processes
+   - Process accounting
+   - Process limits and priorities
+
+10. **Backup and Recovery:**
+    - Backup configurations
+    - Backup storage locations and permissions
+    - Disaster recovery plans
+
+11. **Authentication and Authorization:**
+    - Authentication methods (e.g., password, SSH keys)
+    - PAM (Pluggable Authentication Modules) configuration
+    - LDAP/AD integration
+
+12. **System Integrity:**
+    - Integrity monitoring (e.g., file integrity checking)
+    - Rootkit detection
+
+13. **Security Compliance:**
+    - Compliance checks against industry standards (e.g., CIS benchmarks)
+
+14. **Custom Checks:**
+    - Ability to add custom checks specific to your company's requirements or compliance standards.
+
+Remember, this is just a starting point. Depending on your company's specific needs, regulatory requirements, and security policies, you may need to expand or customize this list. Also, consider the platform and languages you'll be using for development.
